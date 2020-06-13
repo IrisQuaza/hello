@@ -1,0 +1,6 @@
+createCanvas("id", 320, 450);
+circle(160, 225, 100);
+button("id", "text");
+onEvent("screen1", "click", function( ) {
+  textLabel("id", "hello");
+});
